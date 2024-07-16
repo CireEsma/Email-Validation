@@ -7,6 +7,15 @@
     <title>Email validation system</title>
   </head>
   <body>
+    <div class="input-group">
+      <label for="email-field" id="email-label">E-mail address</label>
+      <input
+        type="email"
+        spellcheck="false"
+        id="email-field"
+        onkeyup="validateEmail()" />
+      <span id="email-error"></span>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
